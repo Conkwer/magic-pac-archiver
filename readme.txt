@@ -27,11 +27,9 @@ How to Unpack:
 # Simple way:
 Drag and drop example.pac onto example.cmd. Do not use paths with UTF-8 symbols.
 
-
 # Command Line:
 To unpack a PAC file, use the following command:
 pac_archiver.exe unpack example.pac -d ./uncompressed
-
 
 # Using Python:
 python pac_archiver.py unpack example.pac -d ./uncompressed
