@@ -1,8 +1,9 @@
 ---------------------------------------------------------------
-PAC Archive Unpacker/Packer v2.0 for Magic the Gathering (Dreamcast) 
+Magic PAC Archiver
 ---------------------------------------------------------------
 
-This tool allows you to unpack and pack PAC archives from the game Magic the Gathering (Dreamcast). It supports handling `.pvr` textures and `.sdcp` audio files with the correct extensions.
+This tool allows you to unpack and pack PAC archives from Dreamcast games like MTGDC. 
+It supports handling `.pvr` textures and `.sdcp` audio files with the correct extensions.
 
 ---------------------------------------------------------------
 Features
