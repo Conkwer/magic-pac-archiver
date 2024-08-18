@@ -25,25 +25,21 @@ How to Unpack:
 ---------------------------------------------------------------
 
 # Simple way:
-
 Drag and drop example.pac onto example.cmd. Do not use paths with UTF-8 symbols.
 
 
 # Command Line:
-
 To unpack a PAC file, use the following command:
 pac_archiver.exe unpack example.pac -d ./uncompressed
 
 
 # Using Python:
-
 python pac_archiver.py unpack example.pac -d ./uncompressed
 
 If you do not specify an output directory, the files will be unpacked into a directory with the same name as the input file:
 python pac_archiver.py unpack example.pac
 
 # Using Precompiled Binaries:
-
 pac_archiver.exe unpack example.pac
 
 ---------------------------------------------------------------
@@ -51,15 +47,12 @@ How to pack:
 ---------------------------------------------------------------
 
 # Simple way:
-
 Drag and drop "example" folder onto "example.cmd". Do not use paths with UTF-8 symbols.
 
 # Using Python:
-
 python pac_archiver.py pack ./uncompressed/example example.new.pac
 
 # Using Precompiled Binaries:
-
 pac_archiver.exe pack ./uncompressed/example example.new.pac
 
 If an info.json file is present in the input folder, it will be used to maintain the correct file order and structure.
